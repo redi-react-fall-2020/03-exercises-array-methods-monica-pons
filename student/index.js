@@ -8,7 +8,7 @@
 // You can assume that all values are integers. Do not mutate the input array/list.
 
 function invert(array) {
-  // TODO 
+  return array.map((x) => x * -1);
 }
 
 
@@ -28,7 +28,7 @@ function invert(array) {
 // The correct answer would be 17.
 
 function countSheeps(arrayOfSheep) {
-  // TODO 
+  return arrayOfSheep.filter(Boolean).length; 
 }
 
 
